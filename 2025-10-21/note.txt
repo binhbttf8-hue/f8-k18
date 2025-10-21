@@ -1,0 +1,94 @@
+Buoi 3: 2025-10-21
+- Cac the html
+- Duong dan tuong doi/ tuyet doi
+- Table (optional)
+
+The img la 1 the inline. (the inline sinh ra de giai quyet van de hien thi text).
+
+img:
+    Khoang trang trai-phai: do xuong dong trong code
+    Khoang trang tren-duoi: do img la 1 the inline -> hien thi text
+        Neu muon lam mat khoang trang -> khong phai inline (css)
+
+
+    f8-k18 (root)
+     │
+     │
+     │
+     ├──► 2025-10-14
+     │
+     │
+     │
+     │
+     │
+     │
+     │
+     │
+     ├──► 2025-10-18
+     │     │
+     │     │
+     │     │
+     │     └─► baseline.png
+     │
+     │
+     ├──► 2025-10-21
+     │        │
+     │        │
+     │        ├───►ima│es
+     │        │       └──────►  baseline.png
+     │        └► img.html    (coder)
+     │
+     └───► baseline.png
+
+exp: toi dang dung o 2025-10-21/img.html, muon choc den f8-k18/baseline.png: ../baseline.png -> tuong doi
+     toi dang dung o 2025-10-21/images/index.html, muon choc den f8-k18/baseline.png: ../../baseline.png
+     dung tai 2025-10-18/index.html, muon chi den 2025-10-21/images/baseline.png
+        src???
+
+     ../2025-10-21/images/baseline/png -> Dung
+
+     - /2025-10-21/images/baseline.png -> tuyet doi
+
+
+<h1>Hoc lap trinh tot</h1>
+<p>de hoc lap trinh tot thi hay xem o <a href="https://youtube.com/">day</a></p>
+
+The a:
+    The dieu huong
+    attribute:
+        href: required
+
+The p:
+<p><a></a></p> -> a la the con truc tiep cua p
+
+p
+    a
+
+html
+<p>de hoc lap trinh tot thi hay xem o <a href="https://youtube.com/">day</a></p>
+
+pug
+p de hoc lap trinh tot thi hay xem o
+    a(href="https:youtube.com/") day
+
+<p>
+    <span>
+          <a></a>
+    </span>
+</p>
+
+- a ko phai con truc tiep
+
+ul/li
+    the danh sach
+    la the block
+
+ol/li -> order (sapxep)
+    the danh sach da duoc sap xep
+    la the block
+
+
+
+
+
+
